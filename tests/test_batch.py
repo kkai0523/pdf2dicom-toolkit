@@ -3,7 +3,7 @@ import csv
 import pydicom
 
 from pdf2dicom_toolkit.batch import batch_convert
-from .conftest import create_sample_pdf
+from conftest import create_sample_pdf
 
 
 def test_batch_convert(tmp_path):

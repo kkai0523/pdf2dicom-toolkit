@@ -3,7 +3,7 @@ import pydicom
 from pdf2dicom_toolkit.converter import convert_pdf_to_dicom
 from pdf2dicom_toolkit.models import DicomMetadata
 
-from .conftest import create_sample_pdf
+from conftest import create_sample_pdf
 
 
 def test_convert_pdf_to_dicom(tmp_path):

@@ -1,5 +1,5 @@
 from pdf2dicom_toolkit.cli import main
-from .conftest import create_sample_pdf
+from conftest import create_sample_pdf
 
 
 def test_cli_convert(tmp_path):
