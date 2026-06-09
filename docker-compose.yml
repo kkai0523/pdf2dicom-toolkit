@@ -1,0 +1,6 @@
+services:
+  pdf2dicom:
+    build: .
+    volumes:
+      - ./examples:/data
+    command: ["--help"]

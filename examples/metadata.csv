@@ -1,0 +1,2 @@
+input_pdf,output_dcm,patient_id,patient_name,birth_date,sex,study_date,study_time,accession_number,study_description,referring_physician_name,modality,institution_name,manufacturer
+sample.pdf,sample.dcm,P001,Test^Patient,19800101,O,20260101,090000,ACC001,Example PDF Report,,OT,Example Institution,PDF2DICOM Toolkit
